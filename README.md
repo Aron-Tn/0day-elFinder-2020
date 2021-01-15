@@ -1,4 +1,4 @@
-## 0day-elFinder-2020
+## Zero-Day Vulnerability in File Manager Plugin 6.7 ( CVE 2020-25213 )
 Exploit : Mass 0Day Shell Upload - wp-file-manager 6.7
 
 <img src="https://i.imgur.com/jCnINz2.png" style="max-width:100%;">
